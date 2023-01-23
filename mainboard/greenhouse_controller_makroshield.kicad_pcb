@@ -83,6 +83,14 @@
     )
   )
 
+  (property "author" "Marc-Antoine Lalonde")
+  (property "company" "Connaxio inc.")
+  (property "day" "18")
+  (property "month" "01")
+  (property "rev" "1.0.0")
+  (property "title" "Greenhouse Controller makroShield")
+  (property "year" "2023")
+
   (net 0 "")
 
 )

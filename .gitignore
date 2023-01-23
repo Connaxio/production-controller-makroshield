@@ -27,5 +27,5 @@ fp-info-cache
 
 *-backups/
 out/
-*/#auto
+#auto*
 *.FCStd1
