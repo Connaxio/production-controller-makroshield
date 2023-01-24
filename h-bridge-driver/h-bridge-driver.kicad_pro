@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -56,9 +56,12 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|118616317|86706121|d3536db2-7eff-42e6-b850-f2a06b8f10ed|4ce27a13-8d99-45db-b2fc-66cb1162421d",
+        "courtyards_overlap|137920317|86707521|19d49536-c97e-4c4e-a7b9-08e04208c4c4|9c535308-0b5c-41af-b3fb-b4fc6f99ae58",
         "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|5ae4c4e8-f408-4ba0-841e-b6aa7c0f7617",
         "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|d85cd0e0-21c3-40b6-97d8-234f7c89f7b9",
-        "silk_over_copper|113919000|81280000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|1973e458-5dc4-4132-91ad-1af6ac04cccd"
+        "silk_over_copper|113919000|81280000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|1973e458-5dc4-4132-91ad-1af6ac04cccd",
+        "silk_over_copper|118999000|87167800|12dfb71b-ee49-480e-939b-4e1dfb90ee2a|e8e859e3-8ab0-4c23-a460-f8214883263a"
       ],
       "meta": {
         "version": 2
@@ -108,7 +111,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.09999999999999999,
-        "min_copper_edge_clearance": 0.39999999999999997,
+        "min_copper_edge_clearance": 0.40004999999999996,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
@@ -423,7 +426,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "h-bridge-driver.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

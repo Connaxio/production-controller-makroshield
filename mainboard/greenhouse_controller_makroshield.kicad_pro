@@ -416,6 +416,70 @@
     [
       "e18a453b-68da-4d0f-9d32-3f6787d97e39",
       "Motor Drivers"
+    ],
+    [
+      "99c5bfd6-0781-4290-8d5e-cf5a4bbcdd93",
+      "Motor Driver Connector 1"
+    ],
+    [
+      "17e981e6-9f35-40cb-b6ab-c844ba466974",
+      "Motor Driver Connector 2"
+    ],
+    [
+      "569d390e-20ee-4c2b-821f-2bd3fe88793e",
+      "Motor Driver Connector 3"
+    ],
+    [
+      "ff66f7f5-ee6d-4138-ad12-6b1cca1d04f5",
+      "Motor Driver Connector 4"
+    ],
+    [
+      "61f4c750-4f42-48bc-9460-aab2d9dd6868",
+      "Motor Driver Connector 5"
+    ],
+    [
+      "4581b15d-244e-4dec-90b6-93f085ef3ef2",
+      "Motor Driver Connector 6"
+    ],
+    [
+      "3360da65-0854-46da-b7e7-e9ccef100121",
+      "Motor Driver Connector 7"
+    ],
+    [
+      "e30cf0aa-7f13-485a-87b3-e7860c5954e7",
+      "Motor Driver Connector 8"
+    ],
+    [
+      "98beec47-958e-477c-aab8-756f4b334512",
+      "Motor Driver Connector 9"
+    ],
+    [
+      "87857185-6178-4524-8580-5ab713a368df",
+      "Motor Driver Connector 10"
+    ],
+    [
+      "b31b449e-a167-4fb4-955f-fd46673c609f",
+      "Motor Driver Connector 11"
+    ],
+    [
+      "402ba44c-33bc-4eb7-834b-beb2027d0d04",
+      "Motor Driver Connector 12"
+    ],
+    [
+      "a3e9fb14-e439-4cc3-9b59-8846958ff7d5",
+      "Motor Driver Connector 13"
+    ],
+    [
+      "ed0df5ea-a48e-4ad9-b647-a2ab4b3bdafd",
+      "Motor Driver Connector 14"
+    ],
+    [
+      "4ef74caf-6a79-4345-b335-81f6909802d6",
+      "Motor Driver Connector 15"
+    ],
+    [
+      "6c1159e1-7c68-4f52-9f42-de7df750856b",
+      "Motor Driver Connector 16"
     ]
   ],
   "text_variables": {
