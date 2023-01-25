@@ -331,7 +331,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "greenhouse_controller_makroshield.kicad_pro",
+    "filename": "production_controller_makroshield.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -488,7 +488,7 @@
     "day": "18",
     "month": "01",
     "rev": "1.0.0",
-    "title": "Greenhouse Controller makroShield",
+    "title": "Production Controller makroShield",
     "year": "2023"
   }
 }
