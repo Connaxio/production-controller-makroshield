@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -476,10 +476,6 @@
     [
       "4f9563fc-8953-4ed1-ad91-b680aeb90f81",
       "Motor Driver Connector 15"
-    ],
-    [
-      "26ba5a7d-2fe4-411e-aef4-5dda70c2b727",
-      "Motor Driver Connector 16"
     ]
   ],
   "text_variables": {
