@@ -391,8 +391,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../out/production_controller_makroshield.step",
+      "vrml": "../out/production_controller_makroshield.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -507,9 +507,10 @@
   "text_variables": {
     "author": "Marc-Antoine Lalonde",
     "company": "Connaxio inc.",
-    "day": "18",
-    "month": "01",
+    "day": "14",
+    "month": "02",
     "rev": "1.0.0",
+    "source": "https://github.com/Connaxio/production-controller-makroshield",
     "title": "Production Controller makroShield",
     "year": "2023"
   }

@@ -59,6 +59,8 @@
         "courtyards_overlap|118616317|86706121|4ce27a13-8d99-45db-b2fc-66cb1162421d|d3536db2-7eff-42e6-b850-f2a06b8f10ed",
         "courtyards_overlap|140984317|63719121|a0f95967-7b03-4b25-971c-e36b81657041|ad823b95-b5f9-4cc0-884d-e1ba5517739f",
         "courtyards_overlap|140984317|86707521|19d49536-c97e-4c4e-a7b9-08e04208c4c4|9c535308-0b5c-41af-b3fb-b4fc6f99ae58",
+        "missing_courtyard|117475000|57023000|5dd483b4-fb06-4765-b12d-1fe8d6cbeec3|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|135382000|55245000|8c2c331b-5e89-493b-bf0a-4c67fb2344d8|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|5ae4c4e8-f408-4ba0-841e-b6aa7c0f7617",
         "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|d85cd0e0-21c3-40b6-97d8-234f7c89f7b9",
         "silk_over_copper|113919000|81280000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|1973e458-5dc4-4132-91ad-1af6ac04cccd",
@@ -427,8 +429,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "h-bridge-driver.step",
-      "vrml": ""
+      "step": "../out/h-bridge-driver.step",
+      "vrml": "../out/h-bridge-driver.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -479,9 +481,10 @@
   "text_variables": {
     "author": "Marc-Antoine Lalonde",
     "company": "Connaxio inc.",
-    "day": "25",
-    "month": "01",
+    "day": "14",
+    "month": "02",
     "rev": "1.0.0",
+    "source": "github.com/Connaxio/production-controller-makroshield",
     "title": "H-Bridge Driver",
     "year": "2023"
   }
