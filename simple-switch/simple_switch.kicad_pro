@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.127
         }
       },
@@ -56,10 +56,17 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|119886317|84166121|fdd89f09-f98a-4554-9bf6-915386c73049|b9105c98-4788-4f98-902e-c07b691d3a30",
         "missing_courtyard|131953000|63373000|4ec4f11d-d24c-41d1-a2a2-24e747294d32|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|132080000|58801000|4ec4f11d-d24c-41d1-a2a2-24e747294d32|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|132207000|55372000|4ec4f11d-d24c-41d1-a2a2-24e747294d32|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|138557000|68326000|55552218-dada-46c3-8350-b0252e0dd184|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|138811000|64135000|55552218-dada-46c3-8350-b0252e0dd184|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|6ac23a94-ed5e-44b0-a504-610a7acd1df0",
+        "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|8ee877c1-5bbe-4f36-ae9e-dbdd8ff69f0f",
         "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|98a8c1ee-e334-4b70-8242-b14a71c94d41",
         "silk_over_copper|113919000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|ecbd6d7c-f1c4-4d9b-9ffa-bc336165aff7",
+        "silk_over_copper|113919000|81280000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|6d63907e-8c0b-4d38-a6b4-777933eb4280",
         "silk_over_copper|113919000|81280000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|92c85558-908c-4305-9775-6784f14263d4",
         "silk_over_copper|118999000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|778f4814-e201-459d-bc2e-74f497d3059d",
         "silk_over_copper|118999000|60960000|7bcb8028-f1f0-4396-915e-cc3ec3122ddf|bed82b15-b81c-468b-b7be-adfd08f99adb"
@@ -111,15 +118,15 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09999999999999999,
+        "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.39999999999999997,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.1016,
-        "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.09999999999999999,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.45999999999999996,
         "use_height_for_length_calcs": true
@@ -134,8 +141,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.46,
-          "drill": 0.2
+          "diameter": 0.56,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true,
@@ -375,8 +382,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
-        "via_diameter": 0.46,
-        "via_drill": 0.2,
+        "via_diameter": 0.56,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -479,9 +486,9 @@
   "text_variables": {
     "author": "Marc-Antoine Lalonde",
     "company": "Connaxio inc.",
-    "day": "14",
-    "month": "02",
-    "rev": "1.0.0",
+    "day": "04",
+    "month": "03",
+    "rev": "1.1.0",
     "source": "https://github.com/Connaxio/production-controller-makroshield",
     "title": "Simple switch",
     "year": "2023"
