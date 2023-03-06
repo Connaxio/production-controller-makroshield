@@ -519,9 +519,9 @@
   "text_variables": {
     "author": "Marc-Antoine Lalonde",
     "company": "Connaxio inc.",
-    "day": "14",
-    "month": "02",
-    "rev": "1.0.0",
+    "day": "06",
+    "month": "03",
+    "rev": "1.1.0",
     "source": "https://github.com/Connaxio/production-controller-makroshield",
     "title": "Production Controller makroShield",
     "year": "2023"
